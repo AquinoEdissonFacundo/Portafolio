@@ -1,0 +1,40 @@
+.bodycontainer {
+  color: aliceblue;
+  width: 100%;
+  height: 100vh;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.bodyheader {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.bodyheading {
+  font-size: 32px;
+  font-weight: 400;
+}
+.bodyheadingname {
+  font-size: 80px;
+  font-weight: 400;
+}
+.Desarrolador {
+  color: var(--2-cb-67-d, #2cb67d);
+
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bodyname {
+  color: rgb(190, 153, 28);
+}
+
+.bodyimg {
+  border-radius: 2em;
+}
