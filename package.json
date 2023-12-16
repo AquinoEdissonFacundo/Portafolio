@@ -17,8 +17,9 @@
     "framer-motion": "^10.16.5",
     "next": "14.0.2",
     "node-typewriter": "^0.0.2",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
     "styled-components": "^6.1.1",
     "typewriter": "^9.1.0",
     "typewriter-effect": "^2.21.0"

@@ -1,0 +1,58 @@
+.skillcontainer {
+  width: 100%;
+  height: 50vh;
+}
+.lineasvg {
+  width: 124px;
+  height: 10px;
+}
+.skillsh1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+/* skills.module.css */
+/* skills.module.css */
+
+.skillcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skill {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: calc(25% - 1em);
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 1em;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.textcontainer {
+  flex: 1 0 100%;
+}
+.containersskillicons {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em;
+}
+.iconsskills {
+  width: 2em;
+  height: 2em;
+}

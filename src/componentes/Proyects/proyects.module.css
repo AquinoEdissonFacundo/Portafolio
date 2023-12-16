@@ -1,0 +1,107 @@
+.proyectoscontianer {
+  height: 50vh;
+  width: 100%;
+}
+/* .textcontainer {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+} */
+.proyectos {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.lineasvg {
+  width: 124px;
+  height: 10px;
+}
+.pruebacards {
+  display: flex;
+  padding: 10em;
+  padding-top: 4em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.imgproyects {
+  width: 25%;
+  height: auto;
+}
+
+.proyectoscards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+.proyectocard {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  max-height: 205px;
+  align-items: center;
+  justify-content: center;
+}
+
+.proyectocard h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.proyectocard p {
+  margin-bottom: 15px;
+}
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tecnologia {
+  display: flex;
+  align-items: center;
+}
+
+.tecnologia img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.enlaces {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 1em;
+}
+
+.enlaces a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #2c66c3;
+  font-weight: bold;
+}
+
+.enlaces a:hover {
+  color: #007bff;
+}
+.Vectoreye {
+  width: 2em;
+  height: auto;
+}

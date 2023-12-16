@@ -1,8 +1,8 @@
 import React from 'react';
 import Styles from './body.module.css';
 import Image from 'next/image';
+import Text from './text';
 const body = () => {
-  const texto = '<>Desarrollador Web</>';
   return (
     <div className={Styles.bodycontainer}>
       <div className={Styles.bodyheader}>
@@ -10,7 +10,9 @@ const body = () => {
         <h1 className={Styles.bodyheadingname}>
           <strong className={Styles.bodyname}>Facundo</strong>
         </h1>
-        <p className={Styles.Desarrolador}>{texto}</p>
+        <div className={Styles.Desarrolador}>
+          <Text />
+        </div>
       </div>
       <div className={Styles.bodyimgcontainer}>
         <Image

@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+
   box-sizing: border-box;
   vertical-align: baseline;
 }
@@ -54,7 +55,7 @@ li {
 html {
   scroll-behavior: smooth;
   width: 100%;
-  background-color: black;
+  background: linear-gradient(180deg, #111827 0%, #305971 50.46%, #111827 100%);
 }
 
 /* Desactivamos estilos por defecto de las principales etiquetas de texto */

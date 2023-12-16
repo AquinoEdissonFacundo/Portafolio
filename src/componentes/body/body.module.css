@@ -24,7 +24,6 @@
 }
 .Desarrolador {
   color: var(--2-cb-67-d, #2cb67d);
-
   font-family: Roboto;
   font-size: 32px;
   font-style: normal;
@@ -32,7 +31,7 @@
   line-height: normal;
 }
 .bodyname {
-  color: rgb(190, 153, 28);
+  color: rgb(252, 250, 245);
 }
 
 .bodyimg {

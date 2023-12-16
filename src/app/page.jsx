@@ -1,13 +1,16 @@
 import React from 'react';
 import Styles from './page.module.css';
 import Body from '../componentes/body/body';
-import About from '../componentes/about/about';
+import Proyects from '../componentes/proyects/proyects';
+import Skills from '../componentes/skills/skills';
+
 const page = () => {
   return (
     <div className={Styles.pagecontainer}>
       <div>
         <Body />
-        <About />
+        <Proyects />
+        <Skills />
       </div>
     </div>
   );

@@ -1,0 +1,46 @@
+{
+  "proyectos": [
+    {
+      "nombre": "GLAMIFY E-COMMERCE",
+      "descripcion": "Tienda online de ropa de alta moda/alta costura con experiencia de usuario mejorada.",
+      "imagenCabecera": "/glamify-header.jpg",
+      "imagenportada": [{ "imagen": "/alfacrew.PNG" }],
+      "url_repo": "https://github.com/tuusuario/glamify-e-commerce",
+      "url_demo": "https://tudominio.com/glamify"
+    },
+    {
+      "nombre": "FOOD",
+      "descripcion": "Aplicación web para buscar y descubrir recetas de comidas y postres.",
+      "imagenportada": [{ "imagen": "/alfacrew.PNG" }],
+      "url_repo": "https://github.com/tuusuario/food-app",
+      "url_demo": "https://tudominio.com/food"
+    },
+    {
+      "nombre": "APRENDE INSTITUTE",
+      "descripcion": "Landing page para descubrir cursos en Aprende Institute con formulario de contacto.",
+      "imagenportada": [{ "imagen": "/alfacrew.PNG" }],
+      "url_repo": "https://github.com/tuusuario/aprende-institute",
+      "url_demo": "https://tudominio.com/aprende"
+    }
+  ],
+  "educacion": [
+    {
+      "titulo": "FULL STACK WEB DEVELOPMENT",
+      "institucion": "Henry Bootcamp",
+      "periodo": "abril 2023 - octubre 2023",
+      "horas": "+800 Horas intensivas"
+    }
+  ],
+  "skills": {
+    "LENGUAJES": ["JavaScript"],
+    "FRONT-END": ["HTML5", "CSS3", "React", "Redux", "Sass"],
+    "BACK-END": [
+      "NodeJs",
+      "ExpressJs",
+      "PostgreSQL",
+      "Sequelize",
+      "Nodemailer"
+    ],
+    "DISEÑO": ["Canva", "Figma"]
+  }
+}
