@@ -1,0 +1,41 @@
+.Contactcontainer {
+  width: 100%;
+  height: 20vh;
+  margin-top: 3em;
+}
+.Contact {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lineasvg {
+  width: 124px;
+  height: 10px;
+}
+.containericons {
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1em;
+}
+.iconcontac {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background: black;
+  border-radius: 10em;
+  padding: 1em;
+}

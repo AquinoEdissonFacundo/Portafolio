@@ -11,12 +11,6 @@ const navbar = () => {
   return (
     <div className={Styles.navbarcontainer}>
       <nav className={Styles.navcontainer}>
-        {/* <Image
-          className={Styles.navbarimg}
-          src={'/Captura.PNG'}
-          width={100}
-          height={100}
-        ></Image> */}
         <ul className={Styles.navbarul}>
           <li>
             <Link className={Styles.navbarlink} href={'./'}>
@@ -28,11 +22,7 @@ const navbar = () => {
               <Person4OutlinedIcon /> About
             </Link>
           </li>
-          <li>
-            <Link className={Styles.navbarlink} href={'./proyects'}>
-              <WorkOutlineOutlinedIcon /> Proyects
-            </Link>
-          </li>
+
           <li>
             <Link className={Styles.navbarlink} href={'./resume'}>
               <FilePresentOutlinedIcon /> Resume

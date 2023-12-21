@@ -1,6 +1,14 @@
 {
   "proyectos": [
     {
+      "nombre": "RICK AND MORTY",
+      "descripcion": "",
+      "imagenCabecera": "/glamify-header.jpg",
+      "imagenportada": [{ "imagen": "/alfacrew.PNG" }],
+      "url_repo": "https://github.com/tuusuario/glamify-e-commerce",
+      "url_demo": "https://tudominio.com/glamify"
+    },
+    {
       "nombre": "GLAMIFY E-COMMERCE",
       "descripcion": "Tienda online de ropa de alta moda/alta costura con experiencia de usuario mejorada.",
       "imagenCabecera": "/glamify-header.jpg",

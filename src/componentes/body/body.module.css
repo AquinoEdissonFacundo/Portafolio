@@ -1,7 +1,7 @@
 .bodycontainer {
   color: aliceblue;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 23.065rem;
+  height: 2.25rem;
 }
 .bodyname {
   color: rgb(252, 250, 245);

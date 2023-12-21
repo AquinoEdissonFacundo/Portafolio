@@ -11,6 +11,10 @@ const skillsData = [
   { name: 'HTML', icon: '/html.svg' },
   { name: 'Git', icon: '/git.svg' },
   { name: 'Css3', icon: '/css.svg' },
+  { name: 'Figma', icon: '/figma.svg' },
+  { name: 'PostgresSQL', icon: '/pgsql.svg' },
+  { name: 'Redux', icon: '/css.svg' },
+  { name: 'Express', icon: '/Express.svg' },
 ];
 
 const Skills = () => {

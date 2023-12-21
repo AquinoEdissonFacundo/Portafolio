@@ -3,7 +3,7 @@ import Styles from './page.module.css';
 import Body from '../componentes/body/body';
 import Proyects from '../componentes/proyects/proyects';
 import Skills from '../componentes/skills/skills';
-
+import Contact from '../componentes/Contact/Contact';
 const page = () => {
   return (
     <div className={Styles.pagecontainer}>
@@ -11,6 +11,7 @@ const page = () => {
         <Body />
         <Proyects />
         <Skills />
+        <Contact />
       </div>
     </div>
   );

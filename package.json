@@ -12,19 +12,22 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.16",
-    "@mui/material": "^5.14.17",
+    "@mui/material": "^5.15.0",
     "@mui/styled-engine-sc": "^6.0.0-alpha.5",
-    "framer-motion": "^10.16.5",
+    "framer-motion": "^10.16.16",
     "next": "14.0.2",
     "node-typewriter": "^0.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.1",
-    "typewriter": "^9.1.0",
+    "typewriter": "^6.1.8",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.23.3",
     "eslint": "^8",
     "eslint-config-next": "14.0.2"
   }
