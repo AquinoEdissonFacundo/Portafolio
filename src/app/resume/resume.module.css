@@ -1,0 +1,15 @@
+.resumecontainer {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.233);
+}
+
+.resume-container h1 {
+  color: #ffffff;
+}
+
+.resume-container p {
+  color: #fdfdfd;
+}

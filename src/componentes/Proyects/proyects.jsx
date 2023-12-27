@@ -55,12 +55,17 @@ const Projects = () => {
       content:
         'Aplicación web que tiene como objetivo la búsqueda y descubrimiento de recetas tanto de comidas como de postres conectando una API a través del filtrado por “tipo de comida”, de A-Z y de Z-A, búsqueda por nombre y una paginación, que permite que la persona pueda navegar y encontrar miles de recetas en caso no cuente con el conocimiento previo de la receta; incluso tendrá la facilidad de crear su propia receta de ser necesario.',
       repositorylink: 'https://images.app.goo.gl/gomvVhdMNc6TUZVFA',
-      imgproyects: ['/alfacrew.png', '/Captura.png', '/aprendeinstitute.png'],
+      imgproyects: ['/aprendeinstitute.png'],
     },
     proyectoInstitute: {
       title: 'Proyecto Institute',
       content:
         'Landing page que tiene como objetivo el descubrimiento de todos los cursos que se pueden tomar dentro del instituto de “Aprende”, Belleza, Gastronomía, Plomería, Energía Solar, entre tantos otros. Tener un formulario en el cual se pueda dejar datos como Nombre y Apellido, Número de Teléfono, Email, Curso de Interés. Para que luego un asesor pueda comunicarse con el cliente.',
+      imgproyects: [
+        '/aprendeinstitute.png',
+        '/Aprendeinstituteicons.png',
+        '/Aprendeinstitutex.png',
+      ],
     },
     poyectoRickAndMorty: {
       title: 'Proyecto Rick And Morty',

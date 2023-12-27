@@ -37,7 +37,9 @@
   justify-content: space-evenly;
   flex-direction: row;
 }
-
+.card:hover {
+  cursor: pointer;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -90,11 +92,12 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 30px;
-  background-color: #fff;
+  background: linear-gradient(180deg, #111827 0%, #305971 50.46%, #111827 100%);
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   border: 5px solid rgb(47, 96, 129);
+  color: #fff;
 }
 
 #modal-modal-title {

@@ -1,5 +1,6 @@
 import Navbar from '../componentes/navbar/navbar.jsx';
-import Body from '@/componentes/body/body.jsx';
+import Head from 'next/head';
+// import Body from '@/componentes/body/body.jsx';
 import './stylesglobal.css';
 export const metadata = {
   title: 'Edisson Facundo',
@@ -9,11 +10,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <body>
-        <Navbar />
-        {children}
-      </body>
-    </html>
+    <>
+      <Head>
+        <meta name='google' content='notranslate' />
+      </Head>
+      <html translate='no'>
+        <body translate='no'>
+          <Navbar />
+          {children}
+        </body>
+      </html>
+    </>
   );
 }

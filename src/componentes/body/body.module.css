@@ -16,7 +16,7 @@
 
 .bodyheading {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 400px;
 }
 .bodyheadingname {
   font-size: 80px;
@@ -38,4 +38,61 @@
 
 .bodyimg {
   border-radius: 2em;
+}
+
+@media (max-width: 600px) {
+  .bodyheader {
+    width: 50%;
+  }
+  .bodyheading {
+    font-size: 2rem;
+  }
+  .bodyname {
+    font-size: 4rem;
+  }
+  .Desarrolador {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .bodyheadingname {
+    font-size: 2px;
+  }
+}
+@media (max-width: 400px) {
+  .bodyheading {
+    font-size: 1rem;
+  }
+  .bodyname {
+    font-size: 2rem;
+  }
+  .Desarrolador {
+    font-size: 1rem;
+  }
+  .bodyimg {
+    max-width: 100%;
+    height: auto;
+  }
+  .bodyimgcontainer {
+    width: 30%;
+  }
+}
+
+@media (min-width: 315px) and (max-width: 400px) {
+  .bodyheader {
+    width: 50%;
+  }
+  .bodyheading {
+    font-size: 1rem;
+  }
+  .bodyname {
+    font-size: 2rem;
+  }
+  .bodyheadingname {
+    /* font-size: 2px; */
+  }
+}
+@media (min-width: 100px) and (max-width: 314px) {
+  .bodyheadingname {
+    /* font-size: 2px; */
+  }
 }

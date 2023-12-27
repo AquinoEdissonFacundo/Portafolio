@@ -41,3 +41,18 @@
   display: flex;
   align-items: center;
 }
+@media (max-width: 300px) {
+  .navbarul {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+  }
+  .navcontainer {
+    height: auto;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+  }
+}

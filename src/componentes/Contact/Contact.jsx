@@ -53,6 +53,19 @@ const contactme = () => {
             height={200}
           />
         </a>
+
+        <a
+          href='https://wa.me/+541160565819'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image
+            className={styles.iconcontac}
+            src={'/whatsapp.svg'}
+            width={200}
+            height={200}
+          />
+        </a>
       </div>
     </div>
   );
